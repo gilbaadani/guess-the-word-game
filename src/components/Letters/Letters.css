@@ -1,0 +1,19 @@
+.inline {
+  margin-left: 1em;
+  margin: auto;
+  margin: 2px;
+  box-sizing: content-box;
+  padding: 0 10px;
+  line-height: 1em;
+  display: inline-block;
+  height: 1em;
+  width: 0.6em;
+  white-space: nowrap;
+  font-size: 40px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.hide {
+  display: none;
+}

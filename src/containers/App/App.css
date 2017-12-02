@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+:global(html),:global(body),:global(#root){
+	height:100%;
+}
+:global(body){
+	margin: 0;
+}
+:global(#root){
+/*	border:2px solid #ffff00;*/
+}
+.main{
+/*	border:2px solid red;*/
+/*	border-radius: 8px;*/
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.label{
+	color: rebeccapurple;
+	font-family: cursive;
+	font-size: 70px;
+	padding: 100px;
+}
+
+.msg{
+	color: #4A4279;
+	background-color: whitesmoke;
+	font-size: 20px;
+	border: 1px solid rgba(43, 40, 40, 0.22);
+	border-radius: 4px;
+	text-align: center;
+	visibility: hidden;
+}
+
+.liveScore{
+	font-family: cursive;
+	font-size: 25px;
+}
